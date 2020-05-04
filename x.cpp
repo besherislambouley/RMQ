@@ -4,7 +4,7 @@
  * we can fill both easily
  * now we will try to build the permutation according to the previous two arrays 
  * the Mx [i] condtion can be done by putting the lowest value greater than or equel to Mx [i] in the i'th postion 
- * the L[i] & R[i] problem can be done greedly , suppose we are at postion POS , sort every L[i] & R[i] which L[i] <= POS according to R[i] now if i >= Mx [POS] put i in the POS 
+ * the L[i] & R[i] problem can be done greedly , suppose we are at postion POS , sort every L[i] & R[i] which L[i] <= POS according to R[i] now if i of the lowest R[i]  >= Mx [POS] put i in the POS 
 */
 #define fast ios_base::sync_with_stdio(0),cin.tie(0),cout.tie(0)
 #include <bits/stdc++.h>
